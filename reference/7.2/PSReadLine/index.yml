@@ -1,0 +1,31 @@
+### YamlMime:PowershellModule
+children:
+- title: PSReadLine
+  cmdlets:
+  - PSReadLine.Get-PSReadLineKeyHandler
+  - PSReadLine.Get-PSReadLineOption
+  - PSReadLine.PSConsoleHostReadLine
+  - PSReadLine.Remove-PSReadLineKeyHandler
+  - PSReadLine.Set-PSReadLineKeyHandler
+  - PSReadLine.Set-PSReadLineOption
+uid: PSReadLine
+name: PSReadLine
+description: |-
+  The PSReadLine module contains cmdlets that let you customize the command-line editing environment
+  in PowerShell. These articles document the current beta version of PSReadLine v2.2.0.
+
+  > [!NOTE]
+  > Beginning with PowerShell 7.0, PowerShell skips auto-loading PSReadLine on
+  > Windows if a screen reader program is detected. Currently, PSReadLine doesn't
+  > work well with the screen readers. The default rendering and formatting of
+  > PowerShell 7.0 on Windows works properly. You can manually load the module if
+  > necessary.
+metadata:
+  Download Help Link: https://aka.ms/powershell72-help
+  Help Version: 7.2.0.0
+  Locale: en-US
+  Module Guid: 5714753b-2afd-4492-a5fd-01d9e2cff8b5
+  Module Name: PSReadLine
+  ms.date: 02/10/2020
+  schema: 2.0.0
+  title: PSReadLine
